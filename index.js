@@ -160,8 +160,8 @@ function processContains(item, list, callback) {
 */
 function getFullNames(runners) {
   let name = [];
-    runners.forEach((runner) => { 
-        name.push(`${runner.last_name}, ${runner.first_name}`); 
+    runners.forEach((runners) => { 
+        name.push(`${runners.last_name}, ${runners.first_name}`); 
     });
     return name;
 }
